@@ -1,0 +1,56 @@
+.films-list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mat-card-image {
+  width: 100%;
+  height: 530px;
+  margin:0;
+  transition:0.5s;
+}
+.films-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.toolbar-card {
+  width: 100%;
+  padding: 16px;
+}
+
+.films-toolbar {
+  background-color: white;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.sort-option {
+  font-size: 14px;
+}
+
+::ng-deep .mat-select-placeholder {
+  font-size: 14px;
+}
+
+.no-res {
+  text-align: center;
+  font-size: 30px;
+}
+
+.sort {
+  margin-right: 15px;
+  width: 100px;
+}
+
+.search {
+  width: 150px;
+}
+
+.more-btn {
+  margin-bottom: 15px;
+}
+

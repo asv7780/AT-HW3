@@ -1,0 +1,17 @@
+<mat-card class="films-card">
+  <mat-card-header>
+    <mat-card-title class="title">{{film.name}} ({{film.year}})</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="film.imgUrl" alt="cover of {{film.name}}">
+  <mat-card-content>
+    {{cutDescription(film.description)}}
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>Подробнее</button>
+    <button mat-icon-button (click)="addToFavor()">
+      <mat-icon class="mat-18" [matTooltip]="film.isFavorite ? 'Убрать из избранного' : 'Добавить в избранное' ">
+        {{film.isFavorite ? 'favorite' : 'favorite_border'}}
+      </mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>

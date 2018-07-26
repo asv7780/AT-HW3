@@ -1,0 +1,69 @@
+.menu-card {
+  padding: 0px;
+}
+
+.menu-toolbar {
+  background-color: white;
+}
+
+.spacer {
+  flex:  1 1 auto;
+}
+
+.films-list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.films-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.row{
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 20px;
+}
+.toolbar-card {
+  width: 100%;
+  padding: 16px;
+}
+
+.films-toolbar {
+  background-color: white;
+}
+
+.search-form-field {
+  width: 250px!important;
+  padding: 0 1.5rem;
+}
+.sort-option {
+  font-size: 14px;
+}
+
+::ng-deep .mat-select-placeholder {
+  font-size: 14px;
+}
+
+.no-res {
+  text-align: center;
+  font-size: 30px;
+}
+
+.sort {
+  margin-right: 15px;
+  width: 100px;
+}
+
+.search {
+  width: 150px;
+}
+
+.more-btn {
+  margin-bottom: 15px;
+}
